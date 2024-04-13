@@ -1,0 +1,176 @@
+/* ESCOLHA DE CORES
+				fundo da página: cor mais clara, vista blue;
+				tela de navegação/menu nav cor bem mais escura, everglade;
+				tela principal, main, cor intermediária, fruit salad
+			*/
+			/* ------- RESET CSS ----------- 
+			*{
+				margin: 0;
+				padding: 0;
+				border: 0;
+				font-size: 100%;
+				font: inherit;
+				vertical-align: baseline;
+			}
+			body{
+				line-height: 1;
+			}
+			ol, ul{
+				list-style: none;
+			}
+			table{
+				border-collapse: colapse;
+				border-spacing: 0;
+			}
+			*/
+			/* ---------------- ELEMENTOS DE ESTRUTURA BÁSICA --------------*/
+			body{
+				background-color:#8fd7ab;
+				text-align: center;
+				padding: 0;
+				margin:0;
+
+				height:100%;
+				width:100%;
+
+				background-image: url("../imgs/bkcg.jpg");
+			}
+			header, nav, main{
+				text-align:center;
+			}
+			header{ 			/* Inserir uma background-image !!!!! */
+				background-color: #1e5231;
+
+				padding: 50px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				margin-right: 100px;
+				margin-left: 100px;
+				margin-top: 10px;
+				margin-bottom: 0;
+			}
+			nav{
+				background-color:#1e5231;
+				margin-right: 100px;
+				margin-left: 100px;
+				margin-bottom: 0;
+
+			}
+			main{
+				background-color: #4c8b64;
+
+				margin-top: 0;
+				margin-right: 100px;
+				margin-left: 100px;
+				padding:20px;
+				padding-left: 20px;
+				padding-top: 5px;
+
+				text-align: left;
+
+				height: 100%;
+			}
+			footer{
+				background-color:#1e5231;
+				color: #efefef;
+
+				margin: 0;
+				padding: 30px;
+				line-height: 1.6em;
+
+				font-family: Verdana;
+				font-size: 0.9em;
+			}
+
+			/* ------ ELEMENTOS DE NAVEGAÇÃO -------- */
+			p.topo{		/* elemento que define onde o usuário está na página */
+				color: #2e8bc0;
+				display: inline;
+			}
+			a:link{		/* estilo do link ainda não visitado */
+				color: #b4f8c8;
+			}
+			a:hover{
+				color: #ccff33;
+			}
+			a:visited{
+				color:#189ab4;
+			}
+
+			/* ------- OUTRAS TAGS ---------- */
+			h1, h2, h3, h4, h5, h6, p{
+				color: #efefef; 
+
+			}
+			p{
+				font-family: Verdana;
+			}
+
+			.corpo > dt{
+				text-indent: 1em;
+				font-weight: bold;
+				text-decoration: underline;
+			}
+			dl > dd{
+				text-indent: 1em;
+				margin-bottom: 10px;
+			}
+
+			blockquote.corpo{
+				text-align: right;
+			}
+
+			blockquote.corpo > cite{
+				display: block;
+			}
+			/* ---------- CLASSES ------------ */
+			.topo{
+				margin: 10px;
+				color: ;
+			}
+			.corpo{
+				text-indent: 4em;
+				line-height: 1.5em;
+				color: #efefef;
+				font-family: Verdana;
+
+				text-align: justify;
+
+				margin: auto;
+			}
+				li.corpo{
+					text-indent: 0;
+				}
+
+			#foto_um{
+				position: absolute;
+				left: 63.5em;
+				bottom: 14.8em;
+				margin:auto;
+
+
+			}	
+
+			#foto_um > img{
+				width: 200px;
+				margin:auto;
+			}
+
+			/* #foto_dois{
+				position: relative;
+				left: 55em;
+				bottom: 7em;
+				margin:auto;
+			}	
+
+			#foto_dois > img{
+				width: 10px;
+				margin:auto;
+			}*/
+
+			#foto_dois{
+				width: 300px;
+				position: absolute;
+				left: 55em;
+				top:30em;
+			}
